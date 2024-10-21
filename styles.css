@@ -116,7 +116,7 @@ header {
     width: auto;
     height: 500px;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 452px; /* Di chuyển xuống 50px */
+    bottom: 453px; /* Di chuyển xuống 50px */
     left: 570px; /* Di chuyển sang phải 100px */
 }
 
