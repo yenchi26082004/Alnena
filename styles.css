@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    margin: 20px 55px 0px 55px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.top-bar .left-links a,
+.top-bar .right-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 45px 0px 55px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+        width: 210px; /* Adjust logo size */
+    margin: 0px 45px 0px 0px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 25px;
+    height: 25px;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 90px 0px 0px;
+}
+
+.category-bar {
+    background-color: #f8f8f8;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.category-bar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 45px 0px 55px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+.main img {
+    width: 500px;
+    height: auto;
+    position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
+    top: 50px; /* Di chuyển xuống 50px */
+    left: 300px; /* Di chuyển sang phải 100px */
+}
+.sp1 img {
+    width: 960px;
+    height: auto;
+    position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
+    bottom: 605px; /* Di chuyển xuống 50px */
+    left: 810px; /* Di chuyển sang phải 100px */
+}
+.sp2 img {
+    width: 960px;
+    height: auto;
+    position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
+    bottom: 550px; /* Di chuyển xuống 50px */
+    left: 810px; /* Di chuyển sang phải 100px */
+}
+
+
