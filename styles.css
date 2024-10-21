@@ -28,7 +28,7 @@ body {
 
 .top-bar img {
     width: 30px;
-    height: 30px;
+    height: auto;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 3px; /* Di chuyển xuống 50px */
 }
