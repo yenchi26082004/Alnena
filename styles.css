@@ -105,16 +105,16 @@ header {
 }
 .main img {
     width: auto;
-    height: 650px;
+    height: 500px;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 50px; /* Di chuyển xuống 50px */
-    left: 200px; /* Di chuyển sang phải 100px */
+    left: 150px; /* Di chuyển sang phải 100px */
 }
 .sp1 img {
     width: auto;
-    height: 650px;
+    height: 500px;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 650px; /* Di chuyển xuống 50px */
-    left: 610px; /* Di chuyển sang phải 100px */
+    bottom: 500px; /* Di chuyển xuống 50px */
+    left: 550px; /* Di chuyển sang phải 100px */
 }
 
