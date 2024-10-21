@@ -29,6 +29,8 @@ body {
 .top-bar img {
     width: 30px;
     height: 30px;
+    position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
+    top: 3px; /* Di chuyển xuống 50px */
 }
 
 header {
@@ -108,13 +110,13 @@ header {
     height: 500px;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
     top: 50px; /* Di chuyển xuống 50px */
-    left: 150px; /* Di chuyển sang phải 100px */
+    left: 175px; /* Di chuyển sang phải 100px */
 }
 .sp1 img {
     width: auto;
     height: 500px;
     position: relative; /* Để di chuyển ảnh tương đối so với vị trí ban đầu */
-    bottom: 450px; /* Di chuyển xuống 50px */
-    left: 550px; /* Di chuyển sang phải 100px */
+    bottom: 452px; /* Di chuyển xuống 50px */
+    left: 570px; /* Di chuyển sang phải 100px */
 }
 
